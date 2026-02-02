@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar glass-effect">
+        <div class="logo">TORCH <span class="highlight">7.5G</span></div>
+        
+        <ul class="nav-links">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#flavors">Sabores</a></li>
+        </ul>
+
+        <a href="asistencia.html" class="towelie-help-btn">
+            <i class="fas fa-comment-dots"></i> ¿AYUDA?
+        </a>
+    </nav>
+
+    <main class="hero" id="home">
+        
+        <div class="hero-content">
+            <header class="main-title">
+                <h1>TORCH <span class="gradient-text">CRYO</span></h1>
+                <p class="subtitle">7.5 DE PURA POTENCIA</p>
+                <div class="hero-badge">THC-A LIVE RESIN</div>
+            </header>
+
+            <div class="towelie-container">
+                <div class="speech-bubble">"Esta mierda sí que pega"</div>
+                <img src="toallin-estopega.png" alt="Toallín" class="towelie-hero-img">
+            </div>
+        </div>
+
+        <section class="products-section" id="flavors">
+            <h2 class="section-title">ELIGE TU VENENO</h2>
+            
+            <div class="products-grid">
+                
+                <div class="product-card">
+                    <div class="glass-box">
+                        <img src="water.png" alt="Watermelon Mimosa">
+                    </div>
+                    <h3>WATERMELON MIMOSA</h3>
+                    <p class="strain-type">SATIVA</p>
+                    <button class="buy-btn" onclick="buyProduct('Watermelon Mimosa')">COMPRAR</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="glass-box">
+                        <img src="jupiter.png" alt="Jupiter Jack">
+                    </div>
+                    <h3>JUPITER JACK</h3>
+                    <p class="strain-type">SATIVA</p>
+                    <button class="buy-btn" onclick="buyProduct('Jupiter Jack')">COMPRAR</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="glass-box">
+                        <img src="blue.png" alt="Blue Guava">
+                    </div>
+                    <h3>BLUE GUAVA</h3>
+                    <p class="strain-type">SATIVA</p>
+                    <button class="buy-btn" onclick="buyProduct('Blue Guava')">COMPRAR</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="glass-box">
+                        <img src="candy.png" alt="Candyland">
+                    </div>
+                    <h3>CANDYLAND</h3>
+                    <p class="strain-type">HYBRID</p>
+                    <button class="buy-btn" onclick="buyProduct('Candyland')">COMPRAR</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="glass-box">
+                        <img src="cake.png" alt="Cake Bomb">
+                    </div>
+                    <h3>CAKE BOMB</h3>
+                    <p class="strain-type">INDICA</p>
+                    <button class="buy-btn" onclick="buyProduct('Cake Bomb')">COMPRAR</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="glass-box">
+                        <img src="kali.png" alt="Kali Mist">
+                    </div>
+                    <h3>KALI MIST</h3>
+                    <p class="strain-type">SATIVA</p>
+                    <button class="buy-btn" onclick="buyProduct('Kali Mist')">COMPRAR</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="glass-box">
+                        <img src="rose.png" alt="Rose Gold Runtz">
+                    </div>
+                    <h3>ROSE GOLD RUNTZ</h3>
+                    <p class="strain-type">HYBRID</p>
+                    <button class="buy-btn" onclick="buyProduct('Rose Gold Runtz')">COMPRAR</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="glass-box">
+                        <img src="banana.png" alt="Banana Haze">
+                    </div>
+                    <h3>BANANA HAZE</h3>
+                    <p class="strain-type">SATIVA</p>
+                    <button class="buy-btn" onclick="buyProduct('Banana Haze')">COMPRAR</button>
+                </div>
+
+                 <div class="product-card">
+                    <div class="glass-box">
+                        <img src="green.png" alt="Lemon Cream">
+                    </div>
+                    <h3>LEMON CREAM</h3>
+                    <p class="strain-type">SATIVA</p>
+                    <button class="buy-btn" onclick="buyProduct('Lemon Cream')">COMPRAR</button>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <p>© 2026 TORCH ARGENTINA. Todos los derechos reservados.</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte Técnico Toallín | Torch</title>
+    <link rel="stylesheet" href="styleAR.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="neon-ambient-bg"></div>
+
+    <main class="chat-interface-container">
+        
+        <header class="chat-header glass-effect">
+            <div class="avatar-wrapper">
+                <img src="toallin-saludo.png" alt="Toallín Avatar" class="avatar-img">
+                <div class="status-indicator online"></div>
+            </div>
+            <div class="agent-info">
+                <h1>SOPORTE TÉCNICO TOALLÍN</h1>
+                <span class="status-text">En línea (re loco)</span>
+            </div>
+            <a href="index.html" class="close-chat-btn"><i class="fas fa-times"></i></a>
+        </header>
+
+        <section class="chat-messages-area custom-scrollbar" id="chatArea">
+            </section>
+
+        <footer class="chat-controls-area glass-effect" id="controlsArea">
+            <div class="canned-responses">
+                <button class="response-btn" onclick="askTowelie('duration')">¿CUÁNTO DURA ESTA MIERDA?</button>
+                <button class="response-btn" onclick="askTowelie('potency')">¿POR QUÉ NO ME PEGA?</button>
+                <button class="response-btn" onclick="askTowelie('genetics')">¿QUÉ ONDA LA GENÉTICA?</button>
+            </div>
+            <button class="whatsapp-cta-btn" onclick="startWhatsappFlow()">
+                QUIERO COMPRAR YA, BOLUDO <i class="fab fa-whatsapp"></i>
+            </button>
+        </footer>
+
+    </main>
+
+    <script src="scriptAR.js"></script>
+</body>
+</html>
