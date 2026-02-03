@@ -2,7 +2,7 @@
 // CONFIGURACIÓN
 // ==========================================
 // ¡IMPORTANTE! Reemplaza este número por el tuyo real
-const WHATSAPP_NUMBER = "5491112345678"; 
+const WHATSAPP_NUMBER = "5493543604087"; 
 
 // ==========================================
 // FUNCIONES DE COMPRA
@@ -46,4 +46,5 @@ document.addEventListener('DOMContentLoaded', () => {
         card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
         observer.observe(card);
     });
+
 });
