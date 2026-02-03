@@ -2,7 +2,7 @@
 // CONFIGURACIÓN
 // ==========================================
 // ¡IMPORTANTE! Reemplaza este número por el tuyo real
-const WHATSAPP_NUMBER = "5491112345678"; 
+const WHATSAPP_NUMBER = "5493543604087"; 
 const INITIAL_GREETING = "Qué onda? Soy Toallín, tu técnico fumón. ¿Qué cagada te mandaste con el Torch o qué querés saber?";
 const INITIAL_IMAGE = "toallin-saludo.png"; // Nombre exacto de tu archivo
 
@@ -152,4 +152,5 @@ function showTypingIndicator() {
 function hideTypingIndicator() {
     const typingBubble = document.getElementById("typing-indicator");
     if (typingBubble) typingBubble.remove();
+
 }
